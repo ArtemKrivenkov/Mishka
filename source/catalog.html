@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+  </head>
+  <body class="catalog-body">
+    <header class="header">
+        <a class="header__logo" href="index.html">
+        </a>
+        <nav class="header-nav">
+          <button class="header-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a class="header-nav__link header-nav__link--active" href="#">Каталог товаров</a>
+              </li>
+            </ul>
+            <ul class="header-nav-user">
+              <li class="header-nav-user__item">
+                <a class="header-nav-user__link">
+                  <svg class="header-nav-user__img"></svg>
+                  <span class="header-nav-user__text">Поиск по сайту</span>
+                </a>
+              </li>
+              <li class="header-nav-user__item">
+                <a class="header-nav-user__link">
+                  <svg class="header-nav-user__img"></svg>
+                  <span class="header-nav-user__text">Корзина: пока пуста</span>
+                </a>
+              </li>
+            </ul>
+        </nav>
+        </header>
+    <main class="main-container">
+        <h1 class="Каталог товаров"></h1>
+        <section class="catalog">
+            <h2 class="visually-hidden">Список каталога</h2>
+            <ul class="catalog__list">
+                <li class="catalog__item">
+                    <img class="catalog__image" src="" alt="фотография зайчика-попрыгайчка">
+                    <h3 class="catalog__title">Зайчик-попрыгайчик</h3>
+                    <p class="catalog__description">Рост 30 см, вес 200 г</p>
+                    <div class="catalog__price-wrapper">
+                        <span class="catalog__price">1 200 руб.</span>
+                        <svg class="catalog__icon"></svg>
+                    </div>
+                </li>
+                <li class="catalog__item">
+                    <img class="catalog__image" src="" alt="фотография корзинки для белья">
+                    <h3 class="catalog__title">Корзинка для белья</h3>
+                    <p class="catalog__description">Диаметр 15 см, высота 10 см</p>
+                    <div class="catalog__price-wrapper">
+                        <span class="catalog__price">690 руб.</span>
+                        <svg class="catalog__icon"></svg>
+                    </div>
+                </li>
+                <li class="catalog__item">
+                    <img class="catalog__image" src="" alt="фотография большой корзинки для игрушек">
+                    <h3 class="catalog__title">Большая корзинка для игрушек</h3>
+                    <p class="catalog__description">Диаметр 30 см, высота 30 см</p>
+                    <div class="catalog__price-wrapper">
+                        <span class="catalog__price">1 500 руб.</span>
+                        <svg class="catalog__icon"></svg>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="catalog-video">
+            <div class="catalog-video__inner">
+              <div class="catalog-video__content">
+                <div class="catalog-video__header">
+                  <h2 class="catalog-video__title">Процесс производства</h2>
+                  <svg aria-hidden="true" width="32" height="32" class="catalog-video__icon">
+                      <use xlink:href="img/svg/sprite.svg#video-icon"/>
+                  </svg>
+                </div>
+                <div class="catalog-video__media-wrapper">
+                    <a href="#" class="catalog-video__play-button">
+                      <svg class=" catalog-video__svg">
+                      </svg>
+                    </a>
+                </div>
+              </div>
+              <div class="catalog-video__bottom">
+                <p class="catalog-video__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео
+                о том, как появляются наши товары.</p>
+                <div class="catalog-video__button-wrapper">
+                  <a href="#" class="button catalog-video__button">Сделать заказ</a>
+                </div>
+               </div>
+            </div>
+        </section>
+    </main>
+    
+   
+  </body>
+</html>
